@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="Icon" type="img/png" href="26622.jpg" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <h1>Fill this form.</h1>
+        <p>
+            <b>First Name:</b>
+            <input type="text" id="fname" name="fname" required>
+        </p>
+        <p>
+            <b> Last name: </b>
+            <input type="text" id="lname" name="lname" required><br>
+        </p>
+        <p>
+            <b>Phone No:</b>
+            <input type="number" id="phone" name="phone" required><br>
+        </p>
+        <p>
+
+            <b>Address:</b>
+            <textarea name="Add" id="add" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <b>Pincode:</b>
+            <input type="number" id="pin" name="pin">
+        </p>
+        <fieldset>
+
+            <legend>Gender</legend>
+            <p> <b>Male</b>
+                <input type="radio" name="gender" id="male" value="male" required>
+                <b>Female</b>
+                <input type="radio" name="gender" id="female" value="female" required>
+            </p>
+        </fieldset>
+        <p>
+            <b>Email:</b>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            <b>Birthday:</b>
+            <input type="date" name="birth">
+        </p>
+        <p>
+            <b>Occupation:</b>
+            <select name="occu" id="occu" required>
+                <option value="">--select one option--</option>
+                <option value="Govt.">Government</option>
+                <option value="Business">Business</option>
+                <option value="private">Private</option>
+                <option value="student">Student</option>
+            </select>
+
+        </p>
+        <p>
+            <b>Password:</b>
+            <input type="password" name="pass" required>
+        </p>
+
+        <input type="submit" value="Pay">
+        <input type="reset">
+    </form>
+<p>&copy; DevLeo</p>
+</body>
+
+</html>
