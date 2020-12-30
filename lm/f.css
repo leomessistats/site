@@ -1,0 +1,51 @@
+
+th {
+    color: gold;
+}
+
+td {
+    color: deepskyblue;
+}
+
+b {
+    color: hotpink;
+}
+
+h2 {
+    color: gold;
+
+}
+
+p {
+    color:deepskyblue; font-size: 180% ;
+    font-family:cursivew;
+    font-weight: 900;
+}
+
+em {
+    color: gold; font-size: 100%;
+}
+h1{
+ color: gold;
+ font-family: cursive;
+ font-weight: 900;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    background-color:gold;
+    color:gold;
+}
+body{
+    
+    
+    background-image: url("ab.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+ 
+ol{
+    color:deepskyblue;
+}
